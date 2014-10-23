@@ -1,0 +1,5 @@
+In order to make new models or change existing ones, perform these three steps:
+
+   1: Change models in models.py
+   2: Run python manage.py makemigrations to create migrations for the changes
+   3: Run python manage.py migrate to apply those changes to the database
