@@ -30,11 +30,17 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = (
+    #The Admin site
     'django.contrib.admin',
+    #An authentication system
     'django.contrib.auth',
+    #A framework for content types
     'django.contrib.contenttypes',
+    #A session framework
     'django.contrib.sessions',
+    #A messaging framework
     'django.contrib.messages',
+    #A framework for managing static files
     'django.contrib.staticfiles',
 )
 
@@ -69,7 +75,7 @@ DATABASES = {
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'America/Detroit'
 
 USE_I18N = True
 
