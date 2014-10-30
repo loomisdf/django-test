@@ -3,7 +3,7 @@ from polls.models import Question
 
 # Register your models here.
 class QuestionAdmin(admin.ModelAdmin):
-    fieldsets = 
+    fieldsets = [
         (None,               {'fields': ['question_text']}),
         ('Date information', {'fields': ['pub_date']}),
     ]
