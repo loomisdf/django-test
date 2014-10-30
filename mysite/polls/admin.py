@@ -2,7 +2,7 @@ from django.contrib import admin
 from polls.models import Question, Choice
 
 # Register your models here.
-class ChoiceInLine(admin.StackedInline):
+class ChoiceInLine(admin.TabularInline):
     model = Choice
     extra = 3
 
